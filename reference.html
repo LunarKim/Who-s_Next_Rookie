@@ -4,39 +4,83 @@
       <meta charset="utf-8">
       <title>Rookie</title>
       <style>
-      h1{
-        border-width:5px solid gray;
-      }
-      ul{
-        align-content : center;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333333;
-        }
-
-li {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
+        h1 {
+            font-size: 72px;
+            font-family: "Aerial", Aerial, sans-serif;
+            margin-top: 100px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            line-height: 85%;
+          }
+        h2 {
+            font-size: 102px;
+            font-family: "Aerial", Aerial, sans-serif;
+            margin-left: 20px;
+          }
+        a {
+            text-decoration: none;
+            color: #00ed37;
+          }
+        li {
+            float: left;
+            display: block;
+            color: white;
+            padding: 16px;
+            margin-right: 200px;
+            padding-left: 100px;
+          }
+          li a {
+            font-size: 24px;
+            font-family: "Aerial", Aerial, sans-serif;
+            text-transform: uppercase;
+            border-style: solid;
+            position: fixed;
+            top: 20px;
+            margin-right: 50px;
+          }
+          p {
+            font-size: 21px;
+            font-family: "Aerial", Aerial, sans-serif;
+            line-height: 140%;
+            margin-left: 20px;
+          }
+          img {
+            padding-top: 30px;
+            width: 80%;
+            top: 80px;
+            left: 0px;
+          }
+          .btn {
+              background-color: #00ed37;
+              border: none;
+              color: white;
+              position: fixed;
+              top: 8px;
+              padding: 12px 16px;
+              font-size: 12px;
+              cursor: pointer;
+              margin-top: 12px;
+              margin-left: 20px;
+            }
       </style>
     </head>
     <body>
-
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <button class="btn"><i class="fa fa-home"></i></button>
       <h1><a href="index.html">WHO'S GONNA BE THE NEXT ROOKIE?</a></h1>
-      <ul>
-        <li><a href="result.html">result</a></li>
-        <li><a href="progress.html">progress</a></li>
-        <li><a href="reference.html">reference</a></li>
-      </ul>
-      <h2>reference</h2>
-      <p>엄청 멋진 참고문헌</P>
+        <ul>
+          <li><a href="result.html">result</a></li>
+          <li><a href="progress.html">progress</a></li>
+          <li><a href="reference.html">reference</a></li>
+        </ul>
+      <h2>REFERENCE</h2>
+      <p><a href="https://mapzen.com/blog/mapping-seoul-buildings/">Mapping the ages of buildings in Seoul</a><br>
+        South Korea has been releasing lots of great open data through its National Spatial Data Infrastructure Portal (NSDI). It includes more than 750,000 buildings in Seoul, including their shape, height, neighborhood and approval date. Inspired by built:LA, I decided to make a dynamic map showing the age of buildings in Seoul with Tangram.<br>
 
+        When the map is zoomed in, you can see the shape and height of individual buildings, colored by the year of their construction. You can also click on individual building to find out more details. As you zoom out, the map changes to dots, and then shows age data aggregated by neighborhood. Click on a color block in the legend to just show buildings from a specific decade!<br>
 
+        Can you guess which part of Seoul is the old downtown area by looking at this map?
+        <img src="seoul_building.png" alt="seoul_building">
+</P>
   </body>
 </html>

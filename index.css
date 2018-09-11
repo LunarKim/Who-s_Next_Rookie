@@ -1,0 +1,61 @@
+h1 {
+  font-family: Arial, 'Noto Sans KR', sans-serif;
+  font-size: 280px;
+  padding-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  line-height: 85%;
+  color: #00ed37;
+}
+
+a {
+  text-decoration: none;
+  color: #00ed37;
+  border: none;
+}
+
+.menu {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  margin: 5px, 20px;
+  padding: 30px;
+}
+
+li.current a {
+  color: #3704e0;
+}
+
+li a {
+  font-size: 24px;
+  font-family: "Aerial", Aerial, sans-serif;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 7px;
+  padding: 10px;
+}
+
+li.home a {
+  color: #FFFFFF;
+  background-color: #00ed37;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Aerial", Aerial, sans-serif;
+  line-height: 170%;
+  margin-left: 40px;
+  width: 70%;
+}
+
+h2 {
+  font-size: 102px;
+  font-family: "Arial", Aerial, sans-serif;
+  margin-left: 40px;
+  color: #3704e0;
+}
